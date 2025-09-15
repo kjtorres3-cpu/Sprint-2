@@ -1,0 +1,40 @@
+1. Plataforma de Hosting: Google Cloud Platform (GCP)
+Selección: Se optó por Google Cloud Platform como solución de hosting para la tienda online ToCupboard.
+Ventajas Técnicas:
+Escalabilidad Flexible: Capacidad de ajustar recursos computacionales bajo demanda mediante instancias de Compute Engine
+Alta Disponibilidad: Arquitectura distribuida globalmente con balanceadores de carga integrados
+Seguridad Integrada: Infraestructura con cifrado en tránsito y en reposo, respaldada por la red global de Google
+Monitorización Avanzada: Integración nativa con Cloud Monitoring y Cloud Logging para supervisión en tiempo real
+Costo-eficiencia: Modelo de pago por uso con opciones de máquinas preemptivas para entornos de desarrollo
+Servicios Clave Implementados:
+Compute Engine para instancias virtuales
+Cloud SQL para gestión de bases de datos
+Cloud Storage para assets estáticos
+Cloud Armor para protección DDoS y WAF
+2. Sistema de Gestión de Contenidos: WordPress
+Selección: WordPress como CMS principal para la tienda online.
+Ventajas Estratégicas:
+Ecosistema Extendido: Acceso a más de 58,000 plugins en el directorio oficial
+Adaptabilidad: Arquitectura de temas y plugins permite personalizaciones avanzadas
+WooCommerce: Integración nativa con la plataforma de e-commerce más popular para WordPress
+API REST: Soporte completo para headless commerce y integraciones futuras
+Comunidad Activa: Soporte continuo y actualizaciones de seguridad regulares
+Personalizaciones Implementadas:
+Tema customizado basado en Astra para máximo rendimiento
+Plugins esenciales optimizados para comercio electrónico
+Flujos de checkout personalizados para experiencia de usuario mejorada
+3. Estrategia de Seguridad Multi-capa
+Nivel de Infraestructura (GCP)
+Cloud Armor: Políticas de seguridad perimetral contra ataques DDoS y OWASP Top 10
+VPC Firewall: Reglas de red segmentadas por capas de aplicación
+Cloud IAM: Control de acceso basado en roles con privilegios mínimos
+Encryption: Cifrado AES-256 para datos en reposo y TLS 1.3 para datos en tránsito
+Nivel de Aplicación (WordPress)
+Wordfence Security: Firewall de aplicación web (WAF) y escaneo de malware en tiempo real
+Autenticación Reforzada: Implementación de 2FA para acceso administrativo
+Auditoría Continua: Monitorización de integridad de archivos y detección de cambios no autorizados
+Actualizaciones Automáticas: Política de parches de seguridad aplicados automáticamente
+Capa de Cumplimiento
+Protección de Datos: Implementación de políticas GDPR-ready para datos de clientes
+Backups Automatizados: Sistema de snapshots diarios con retención de 30 días
+Monitorización Activa: Alertas configuradas para actividades sospechosas y caídas de servicio
